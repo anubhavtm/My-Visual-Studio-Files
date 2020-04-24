@@ -71,6 +71,7 @@ while(cap.isOpened()):
     if cv2.waitKey(1) == ord('q'):#press q to quit
         break
 cap.release()
+
 cv2.destroyAllWindows()       
 
 
